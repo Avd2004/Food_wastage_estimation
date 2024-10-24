@@ -68,7 +68,7 @@ def visualize_difference(image, model, transform):
     st.pyplot(fig)
 
 # Streamlit app interface
-st.title("Food Wastage Estimation")
+st.title("Food Wastage Estimation, if more wastage baccha will die")
 
 # Image upload
 uploaded_file = st.file_uploader("Choose an image of a plate with food", type=["jpg", "jpeg", "png"])

@@ -3,7 +3,6 @@ import torch
 from PIL import Image
 import matplotlib.pyplot as plt
 import torchvision.transforms as transforms
-from transformers import AutoModel
 from model import DeeperAutoencoder
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
